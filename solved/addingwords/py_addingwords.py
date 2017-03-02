@@ -15,15 +15,13 @@ def aw_define(defs, word, number):
   defs[number] = word
   return defs
 
-def aw_is_defined(key, defs):
-  return key in defs
 
 def aw_calculate(defs, vals):
   values = vals[0::2]
   opperators = vals[1::2]
 
   for v in values:
-    if not aw_is_defined(v, defs):
+    if not v in defs:
       return 'unknown'
 
   total = defs[values.pop(0)]
@@ -35,7 +33,7 @@ def aw_calculate(defs, vals):
       elif opperators[i] == '+':
         total += defs[values[i]]
 
-  if aw_is_defined(total, defs):
+  if total in defs:
     return defs[total]
   return 'unknown'
 

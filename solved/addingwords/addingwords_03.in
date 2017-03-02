@@ -1,0 +1,32 @@
+def one 1
+def negone -1
+calc one =
+calc one + one + negone = 
+def zero 0
+calc one + negone =
+def two 2
+def three 3
+def four 4
+calc one + one + two =
+calc one - one =
+calc four - two - one + three - one - two =
+clear
+def one -1
+def negone 1
+calc one =
+calc negone =
+calc one + negone =
+def zero 0
+calc one + negone =
+def negtwo -2
+calc one + one =
+def two 2
+calc negone + negone + one =
+calc negone + negone =
+clear
+def programming 1
+def is 2
+calc programming + is =
+def fun 3
+calc programming + is =
+clear

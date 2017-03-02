@@ -1,0 +1,12 @@
+foo = foo
+foo - foo = unknown
+foo + bar = unknown
+foo + bar = programming
+programming - is + fun = unknown
+programming - is + fun = bar
+a + b = c
+a + c = d
+a + a + b = d
+a + b + c = unknown
+a + b + c = f
+b + b + b + c + c + c - a = e

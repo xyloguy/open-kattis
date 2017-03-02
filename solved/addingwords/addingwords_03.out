@@ -1,0 +1,15 @@
+one = one
+one + one + negone = one
+one + negone = zero
+one + one + two = four
+one - one = zero
+four - two - one + three - one - two = one
+one = one
+negone = negone
+one + negone = unknown
+one + negone = zero
+one + one = negtwo
+negone + negone + one = negone
+negone + negone = two
+programming + is = unknown
+programming + is = fun

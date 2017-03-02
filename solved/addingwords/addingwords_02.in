@@ -1,0 +1,30 @@
+def foo 3
+calc foo =
+calc foo - foo = 
+calc foo + bar =
+def bar 7
+def programming 10
+calc foo + bar =
+def is 4
+def fun 8
+calc programming - is + fun =
+def fun 1
+calc programming - is + fun =
+clear
+def a 1
+def b 2
+def c 3
+def d 4
+calc a + b =
+calc a + c = 
+calc a + a + b = 
+calc a + b + c =
+def e 5
+def f 6
+calc a + b + c =
+def g 7
+def h 8
+def i 9
+def a 10
+calc b + b + b + c + c + c - a =
+clear
